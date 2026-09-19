@@ -13,8 +13,7 @@ function App() {
 
   const [loading, setLoading] = useState(false);
 
-  const API_URL =
-    "https://curly-lamp-5px6x7v6wfvv5j-5000.app.github.dev/api/students";
+ const API_URL = "http://localhost:5000/api/students";
 
   // ==========================================
   // API GET: Lấy danh sách sinh viên từ Backend
