@@ -1,13 +1,12 @@
-
 services:
   backend:
-    build: ./mern-demo
+    image: TEN_DOCKERHUB/mern-backend:latest
     ports:
       - "5000:5000"
     environment:
-       MONGODB_URI: "mongodb+srv://5quyth1165_db_user:abc123456@qui.britris.mongodb.net/?appName=Qui"
+      MONGODB_URI: "mongodb+srv://5quyth1165_db_user:abc123456@qui.britris.mongodb.net/?appName=Qui"
 
   frontend:
-    build: ./client
+    image: TEN_DOCKERHUB/mern-frontend:latest
     ports:
       - "5173:5173"
