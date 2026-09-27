@@ -5,7 +5,7 @@ services:
       - "5000:5000"
     
     environment:
-       MONGODB_URI: "mongodb+srv://5quyth1165_db_user:abc123456@qui.britris.mongodb.net/?appName=Qui"
+       MONGODB_URI: "mongodb+srv://5quyth1165_db_user:Quyvjpro@qui.britris.mongodb.net/?appName=Qui"
 
   frontend:
     image: dockerqui/mern-frontend:1.0
