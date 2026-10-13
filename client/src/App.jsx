@@ -13,8 +13,7 @@ function App() {
 
   const [loading, setLoading] = useState(false);
 
- const API_URL = "http://localhost:5000/api/students";
-
+const API_URL = "https://bug-free-waddle-5vrxxjvp9q6r24wvv-5000.app.github.dev/api/students";
   // ==========================================
   // API GET: Lấy danh sách sinh viên từ Backend
   // ==========================================
