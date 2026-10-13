@@ -1,5 +1,5 @@
 Cloud Computing Laboratory
 
-Student Name:
-Student ID:
-class
+Student Name: Thai Van Qui
+Student ID: 237104
+class: DH23TIN09
